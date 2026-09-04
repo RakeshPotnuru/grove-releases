@@ -3,6 +3,14 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Fri, 04 Sep 2026 09:10:40 +0530</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.3.1/Grove.dmg" length="8190027" type="application/octet-stream" sparkle:edSignature="W6QygShgwz5dFrFKya5et32vES0mCmvYZuy/w4FinF1sNtkrQiq66ILalhFfslZrUGPfLzus/AqHlkcWJlJOCg=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 03 Sep 2026 23:00:37 +0530</pubDate>
             <sparkle:version>3</sparkle:version>
