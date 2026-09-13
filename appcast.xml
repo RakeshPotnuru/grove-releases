@@ -3,6 +3,14 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.6.1</title>
+            <pubDate>Sun, 13 Sep 2026 10:43:50 +0530</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.6.1/Grove.dmg" length="10152279" type="application/octet-stream" sparkle:edSignature="kYDeIDSrOJyhH6I4/S4mZqy4RxlUX5UIV2w2UN+tekzA1333iuLADdGcKx+T+GMiXL+Q2JhZoxYN+hgMWTUvBg=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Sun, 13 Sep 2026 10:17:37 +0530</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.5.0/Grove.dmg" length="10137721" type="application/octet-stream" sparkle:edSignature="LpJra7X5xP9BFUUNeWKV+QA79VTuo8llIfpuPp59VPw/GFlLNVcgog+oPQdAGsYzXOvKuHZAXVS3NwIGjOosCA=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Mon, 07 Sep 2026 10:23:44 +0530</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.4.0/Grove.dmg" length="10106182" type="application/octet-stream" sparkle:edSignature="4OaFNrmN86NKoFi7s8510b/PkTHB0PaYH34+u/Ig5lARtQ3rAba58THQoJ3pI9n2fVcLAqqbT7bmJsn4tbo1Cw=="/>
         </item>
     </channel>
 </rss>
