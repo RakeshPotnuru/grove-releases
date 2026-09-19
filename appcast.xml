@@ -3,6 +3,23 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.7.1</title>
+            <pubDate>Sat, 19 Sep 2026 21:50:00 +0530</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## A crashed script no longer gets stuck
+
+A script that crashed right after starting could get stuck as "stopping" forever: `grove_status` showed it that way with no way out, `grove_stop_script` did nothing, and `grove_start_script` claimed it was already ready. Grove now reaps the process and reports its real exit code no matter when the crash happens.
+
+## Warnings before you lose running scripts
+
+- Quitting Grove with scripts still running now asks first, instead of stopping them silently.
+- Disconnecting a project with scripts running in it now says how many will be stopped.
+]]></description>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.7.1/Grove.dmg" length="10362943" type="application/octet-stream" sparkle:edSignature="so0c7QukShwOHotxFp+g+AsEb9xtJcol8BhWeElUaV3vfCHNNkofpUQ15tBeQvwo3C9dJtUnphHmgGVoa9mgAQ=="/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Fri, 18 Sep 2026 10:33:21 +0530</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -32,14 +49,6 @@ The sidebar now shows a single project. Switch projects from the menu at the top
             <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.6.1/Grove.dmg" length="10152279" type="application/octet-stream" sparkle:edSignature="kYDeIDSrOJyhH6I4/S4mZqy4RxlUX5UIV2w2UN+tekzA1333iuLADdGcKx+T+GMiXL+Q2JhZoxYN+hgMWTUvBg=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Sun, 13 Sep 2026 10:17:37 +0530</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.6.0/Grove.dmg" length="10151932" type="application/octet-stream" sparkle:edSignature="4KwivP3MSlNknnwjuXARve9ys3V9vC2iHQhDu+d04G9yTyWeiG87tAO9QsasBWVX1JcLY/ba+wvkH8wuH15BAQ=="/>
         </item>
     </channel>
 </rss>
