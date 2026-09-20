@@ -3,6 +3,22 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Sun, 20 Sep 2026 13:49:42 +0530</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Share a running script over a public URL
+
+Click Share next to Stop and Restart on any script with a detected port, and Grove opens a Cloudflare quick tunnel to it: a public HTTPS URL, live until you stop sharing. `cloudflared` isn't bundled; Grove looks for it on PATH and offers to install it with Homebrew the first time you use this.
+
+## Agents can watch a tunnel come up
+
+`grove logs <ref> --tunnel` (and `grove_get_logs` with `tunnel: true`) reads cloudflared's own connection output instead of the script's — the same cursor, `--follow`, and `--grep` support as regular logs.
+]]></description>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.8.0/Grove.dmg" length="10501545" type="application/octet-stream" sparkle:edSignature="vW6VmeqhSj8J1u3CVNIB11dFCcGtJ13av6y4r1wZKMZE+rljue6S4J4+jFd1AZkTdJUeG6Dx4XlYjKZUxM4dCQ=="/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Sat, 19 Sep 2026 21:50:00 +0530</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -41,14 +57,6 @@ The sidebar now shows a single project. Switch projects from the menu at the top
 - App icons are back in the Open In menu.
 ]]></description>
             <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.7.0/Grove.dmg" length="10374401" type="application/octet-stream" sparkle:edSignature="B1Ue5t4c5eaeOFf5TI6eLPfyiX7JiDQKD2tJ8hGH/LgUIZx4E8hYzvmj9FKrFE9fHfqlywbSNFdbHSfme2T2Dg=="/>
-        </item>
-        <item>
-            <title>0.6.1</title>
-            <pubDate>Sun, 13 Sep 2026 10:43:50 +0530</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.6.1/Grove.dmg" length="10152279" type="application/octet-stream" sparkle:edSignature="kYDeIDSrOJyhH6I4/S4mZqy4RxlUX5UIV2w2UN+tekzA1333iuLADdGcKx+T+GMiXL+Q2JhZoxYN+hgMWTUvBg=="/>
         </item>
     </channel>
 </rss>
