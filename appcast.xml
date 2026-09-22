@@ -3,6 +3,18 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.8.1</title>
+            <pubDate>Tue, 22 Sep 2026 12:59:25 +0530</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## The menu bar icon shows status at a glance
+
+A green dot appears on the icon when a script is running, and a red alert badge when one has crashed. No need to open the popover to check.
+]]></description>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.8.1/Grove.dmg" length="10507395" type="application/octet-stream" sparkle:edSignature="Thjt8DkG+5Uwm2TeywJWtqMtDkqfkiwLsFXHJ1QVGC0SWfOoL1HoakLmD+f0aTfobHq3LHqR2508TZsmxkjdDw=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Sun, 20 Sep 2026 13:49:42 +0530</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -34,29 +46,6 @@ A script that crashed right after starting could get stuck as "stopping" forever
 - Disconnecting a project with scripts running in it now says how many will be stopped.
 ]]></description>
             <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.7.1/Grove.dmg" length="10362943" type="application/octet-stream" sparkle:edSignature="so0c7QukShwOHotxFp+g+AsEb9xtJcol8BhWeElUaV3vfCHNNkofpUQ15tBeQvwo3C9dJtUnphHmgGVoa9mgAQ=="/>
-        </item>
-        <item>
-            <title>0.7.0</title>
-            <pubDate>Fri, 18 Sep 2026 10:33:21 +0530</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## One project at a time
-
-The sidebar now shows a single project. Switch projects from the menu at the top of the sidebar, or press ⌘1 to ⌘9.
-
-- Search still covers every project, with results grouped by project.
-- Projects out of view that have something running or crashed stay listed at the bottom of the sidebar, one click away.
-- Grove remembers which project you were looking at.
-- Selecting a script from the menu bar switches the sidebar to its project.
-
-## Fixes for macOS 27
-
-- Opening a second pane no longer makes the window wider than your screen. Four panes fit in a normal window again, and you can drag the dividers to resize panes. Double-click a divider to even them out.
-- In a narrow pane, the toolbar hides the usage readout and status text instead of cutting off buttons.
-- App icons are back in the Open In menu.
-]]></description>
-            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.7.0/Grove.dmg" length="10374401" type="application/octet-stream" sparkle:edSignature="B1Ue5t4c5eaeOFf5TI6eLPfyiX7JiDQKD2tJ8hGH/LgUIZx4E8hYzvmj9FKrFE9fHfqlywbSNFdbHSfme2T2Dg=="/>
         </item>
     </channel>
 </rss>
