@@ -3,6 +3,22 @@
     <channel>
         <title>Grove</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Tue, 29 Sep 2026 22:37:42 +0530</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Search all projects got a lot better
+
+Results now open by default, and you can fold any package, "Custom Scripts" group, or whole project section by clicking its header. Matched text is highlighted, and multi-word queries work: "web dev" finds `dev` in `web`.
+
+## Global scripts settings
+
+Refresh reloads your global scripts from disk, so edits made outside Grove show up without a relaunch. "New Global Script…" and "Connect Project Folder…" now sit at the top of their tabs, and the Settings window is bigger.
+]]></description>
+            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.9.0/Grove.dmg" length="10543809" type="application/octet-stream" sparkle:edSignature="t0CPMP1ALO9eGXYCBG4sdBSOXG6mwhU+KtphqC5Etit9vQbr8LPm8pJFRos+ApjSSazGp+VTgLBhiS8YctszAA=="/>
+        </item>
+        <item>
             <title>0.8.1</title>
             <pubDate>Tue, 22 Sep 2026 12:59:25 +0530</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -29,23 +45,6 @@ Click Share next to Stop and Restart on any script with a detected port, and Gro
 `grove logs <ref> --tunnel` (and `grove_get_logs` with `tunnel: true`) reads cloudflared's own connection output instead of the script's — the same cursor, `--follow`, and `--grep` support as regular logs.
 ]]></description>
             <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.8.0/Grove.dmg" length="10501545" type="application/octet-stream" sparkle:edSignature="vW6VmeqhSj8J1u3CVNIB11dFCcGtJ13av6y4r1wZKMZE+rljue6S4J4+jFd1AZkTdJUeG6Dx4XlYjKZUxM4dCQ=="/>
-        </item>
-        <item>
-            <title>0.7.1</title>
-            <pubDate>Sat, 19 Sep 2026 21:50:00 +0530</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## A crashed script no longer gets stuck
-
-A script that crashed right after starting could get stuck as "stopping" forever: `grove_status` showed it that way with no way out, `grove_stop_script` did nothing, and `grove_start_script` claimed it was already ready. Grove now reaps the process and reports its real exit code no matter when the crash happens.
-
-## Warnings before you lose running scripts
-
-- Quitting Grove with scripts still running now asks first, instead of stopping them silently.
-- Disconnecting a project with scripts running in it now says how many will be stopped.
-]]></description>
-            <enclosure url="https://github.com/RakeshPotnuru/grove-releases/releases/download/v0.7.1/Grove.dmg" length="10362943" type="application/octet-stream" sparkle:edSignature="so0c7QukShwOHotxFp+g+AsEb9xtJcol8BhWeElUaV3vfCHNNkofpUQ15tBeQvwo3C9dJtUnphHmgGVoa9mgAQ=="/>
         </item>
     </channel>
 </rss>
